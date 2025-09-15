@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    width: 850px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+}
+
+.formulaire {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text h3 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-container a {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.social-container a:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+.social-text {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.zone_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.zone_text label {
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.zone_text input {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.zone_text input:focus {
+    outline: none;
+    border-color: #840b8a;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(132, 11, 138, 0.3);
+}
+
+input[type="submit"] {
+    background-color: #840b8a;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #6a096f;
+}
+
+.autre {
+    width: 50%;
+    background: linear-gradient(to right, #33a43c );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    color: white;
+    text-align: center;
+}
+
+.autre h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.autre p {
+    font-size: 16px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+.autre button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+
+.autre button:hover {
+    background-color: #840b8a;
+}
+
+.autre a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.error-message {
+    color: #ff4b2b;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.success-message {
+    color: #33a43c;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
